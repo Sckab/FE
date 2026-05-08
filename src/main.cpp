@@ -21,6 +21,10 @@ main(int argc, char* argv[])
     }
 
     MainWindow w;
+
+    // this makes the window not resizable
+    w.setFixedSize(w.size());
+
     w.show();
 
     return QCoreApplication::exec();

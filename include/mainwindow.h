@@ -18,6 +18,9 @@ class MainWindow : public QMainWindow
 
   public:
     explicit MainWindow(QWidget* parent = nullptr);
+
+    void button_handler() const;
+
     ~MainWindow() override;
 
   private:
